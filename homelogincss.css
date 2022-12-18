@@ -1,0 +1,113 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+ body
+ {
+    background-color: black;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+ }
+ .varun
+{   
+    border:0px solid black;
+    border-radius:50px;
+    width:250px;
+    height: 210px;
+    background-color: black;
+    animation-name: varun1;
+    animation-duration: 10s;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 830px;
+    text-align:center;
+    text-shadow: 2px 2px 4px black;
+    font-size: large;
+    animation-iteration-count: 5;
+ }
+ @keyframes varun1{
+            0% {background-color: black; left:0px; top: 0px;}
+            25% {background-image: url('https://th.bing.com/th/id/OIP.2K6fqsFnV-jZh9FiSc-YzwAAAA?pid=ImgDet&w=298&h=288&rs=1'); left:0px; top: 200px;}
+            50% {background-image: url('https://hamlettours.com/wp-content/themes/Webamp/cache/hotel-icon-blue-656133ff.png'); left:0px; top: 200px;}
+            100% {background-image: url('https://cdn3.iconfinder.com/data/icons/real-estate-175/65/96-512.png'); left:0px; top: 200px;}
+  }
+.imagesize123{
+    height:340px;
+    width:340px;
+    background-size:cover;
+}
+
+a
+{
+    text-decoration: none;
+    color:black;
+    font-family: Impact;
+    text-align: center;
+    font-weight: 600;
+    font-size: x-large;
+}
+.let
+{
+    border-width: fit-content;
+    border: 10px double black;
+    border-radius:30px;
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    animation-name: let1;
+    animation-duration: 60s;
+    animation-iteration-count: 30;
+    animation-delay: 4s;
+    position: relative;
+    text-align: center;
+    text-shadow: 2px 2px 4px white;
+    top: 400px;
+    left: 85%;
+}
+@keyframes let1 {
+    0% {background-color:black;}
+    15%{background-color: white;}
+    30% {background-color: skyblue;}
+    45%{background-color:lightseagreen;}
+    60% {background-color: lightcoral;}
+    75%{background-color:lightgoldenrodyellow}
+    100%{background-color: lightgray;}
+
+}
+a:hover{
+    color:maroon;
+}
+.h1
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    rgba(0,0,0,0) 0%,
+rgba(0,0,0,0) 39%,
+    rgba(0,0,0,0) 47%,
+      white 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: rgba(0,0,0,0);
+  background-clip: text;
+  -text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 10s linear 5;
+  animation-delay: 1s;
+  display:10px;
+      font-size: 19px;
+      padding-top:200px;
+      padding-left: 500px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
